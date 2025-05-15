@@ -1,0 +1,66 @@
+#include "../headers/Buzzer.h"
+		int dot_ms=200;
+		int dash_ms=600;
+		int silent_ms=200;
+void buzzer_inti(void)
+{
+		//init port A pin 6 (en) and pin 7 (rs)
+		SYSCTL_RCGCGPIO_R|=0x00000001;
+		while((SYSCTL_PRGPIO_R & 0x00000001)==0){};
+		SET_BIT(GPIO_PORTA_DIR_R ,2);
+		SET_BIT(GPIO_PORTA_DEN_R ,2);
+
+}
+void dot(void)
+{
+	SET_BIT(GPIO_PORTA_DATA_R,2);
+	delay_ms(dot_ms);
+  CLEAR_BIT(GPIO_PORTA_DATA_R,2);;
+	delay_ms(silent_ms);
+}
+void dash(void)
+{
+	SET_BIT(GPIO_PORTA_DATA_R,2);
+	delay_ms(dash_ms);
+  CLEAR_BIT(GPIO_PORTA_DATA_R,2);;
+	delay_ms(silent_ms);
+}
+void morsee(int location)
+{
+	switch (location)
+	{
+		case 0:
+			dot();
+			dash();
+			break;
+		case 1:
+			dash();
+		dot();
+		dash();
+		dot();
+		break;
+		case 2:
+		dot();
+		dash();
+		dash();
+		dot();
+		break;
+		case 3:
+			dot();
+		dot();
+		break;
+		case 4:
+			dot();
+		dot();
+		dot();
+		dash();
+		break;
+		case 5:
+			dot();
+		dash();
+		dot();
+		dot();
+		break;
+		default:;
+	}
+}

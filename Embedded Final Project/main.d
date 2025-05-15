@@ -1,0 +1,14 @@
+.\main.o: main.c
+.\main.o: HAL/headers/LCD.h
+.\main.o: HAL/headers/../../MCAL/headers/Delay.h
+.\main.o: HAL/headers/../../MCAL/headers/tm4c123gh6pm.h
+.\main.o: HAL/headers/../../MCAL/headers/../../services/headers/GPIO.h
+.\main.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\main.o: HAL/headers/GPS.h
+.\main.o: D:\Keil\ARM\ARMCC\bin\..\include\math.h
+.\main.o: D:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\main.o: D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\main.o: HAL/headers/../../MCAL/headers/UART.h
+.\main.o: D:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\main.o: HAL/headers/Buzzer.h
+.\main.o: services/headers/Functions.h

@@ -1,0 +1,9 @@
+.\gps.o: HAL\src\GPS.c
+.\gps.o: HAL\src\../headers/GPS.h
+.\gps.o: D:\Keil\ARM\ARMCC\bin\..\include\math.h
+.\gps.o: D:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\gps.o: D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\gps.o: HAL\src\../headers/../../MCAL/headers/UART.h
+.\gps.o: HAL\src\../headers/../../MCAL/headers/tm4c123gh6pm.h
+.\gps.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\gps.o: D:\Keil\ARM\ARMCC\bin\..\include\stdio.h

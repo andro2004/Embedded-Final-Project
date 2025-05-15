@@ -1,0 +1,58 @@
+Dependencies for Project 'Embedded Final Project', Target 'Target 1': (DO NOT MODIFY !)
+F (.\HAL\headers\Buzzer.h)(0x6826429F)()
+F (.\HAL\headers\GPS.h)(0x6826426F)()
+F (.\HAL\headers\LCD.h)(0x68263CD9)()
+F (.\HAL\src\Buzzer.c)(0x68263D2A)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\buzzer.o --omf_browse .\buzzer.crf --depend .\buzzer.d)
+I (HAL\src\../headers/Buzzer.h)(0x6826429F)
+I (HAL\src\../headers/../../MCAL/headers/Delay.h)(0x68264082)
+I (HAL\src\../headers/../../MCAL/headers/tm4c123gh6pm.h)(0x680B4671)
+I (HAL\src\../headers/../../MCAL/headers/../../services/headers/GPIO.h)(0x680E85C3)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+F (.\HAL\src\GPS.c)(0x6826437D)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\gps.o --omf_browse .\gps.crf --depend .\gps.d)
+I (HAL\src\../headers/GPS.h)(0x6826426F)
+I (D:\Keil\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (HAL\src\../headers/../../MCAL/headers/UART.h)(0x6826435E)
+I (HAL\src\../headers/../../MCAL/headers/tm4c123gh6pm.h)(0x680B4671)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+F (.\HAL\src\LCD.c)(0x68263D75)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (HAL\src\../headers/LCD.h)(0x68263CD9)
+I (HAL\src\../headers/../../MCAL/headers/Delay.h)(0x68264082)
+I (HAL\src\../headers/../../MCAL/headers/tm4c123gh6pm.h)(0x680B4671)
+I (HAL\src\../headers/../../MCAL/headers/../../services/headers/GPIO.h)(0x680E85C3)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+F (.\MCAL\headers\Delay.h)(0x68264082)()
+F (.\MCAL\headers\GPIO.h)(0x00000000)()
+F (.\MCAL\headers\tm4c123gh6pm.h)(0x680B4671)()
+F (.\MCAL\headers\UART.h)(0x6826435E)()
+F (.\MCAL\src\Delay.c)(0x6826435E)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (MCAL\src\../headers/Delay.h)(0x68264082)
+I (MCAL\src\../headers/tm4c123gh6pm.h)(0x680B4671)
+I (MCAL\src\../headers/../../services/headers/GPIO.h)(0x680E85C3)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+F (.\MCAL\src\UART.c)(0x6826435E)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (MCAL\src\../headers/UART.h)(0x6826435E)
+I (MCAL\src\../headers/tm4c123gh6pm.h)(0x680B4671)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+F (.\startup_TM4C123.s)(0x681F1B07)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\TI\TM4C123--list .\startup_tm4c123.lst --xref -o .\startup_tm4c123.o --depend .\startup_tm4c123.d)
+F (.\services\src\Functions.c)(0x68264154)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\functions.o --omf_browse .\functions.crf --depend .\functions.d)
+I (services\src\../headers/Functions.h)(0x68263E6F)
+I (D:\Keil\ARM\ARMCC\include\math.h)(0x51C819B4)
+F (.\services\headers\Functions.h)(0x68263E6F)()
+F (.\main.c)(0x68265352)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (HAL/headers/LCD.h)(0x68263CD9)
+I (HAL/headers/../../MCAL/headers/Delay.h)(0x68264082)
+I (HAL/headers/../../MCAL/headers/tm4c123gh6pm.h)(0x680B4671)
+I (HAL/headers/../../MCAL/headers/../../services/headers/GPIO.h)(0x680E85C3)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (HAL/headers/GPS.h)(0x6826426F)
+I (D:\Keil\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (HAL/headers/../../MCAL/headers/UART.h)(0x6826435E)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (HAL/headers/Buzzer.h)(0x6826429F)
+I (services/headers/Functions.h)(0x68263E6F)
