@@ -1,0 +1,14 @@
+.\mian.o: mian.c
+.\mian.o: HAL/headers/LCD.h
+.\mian.o: HAL/headers/../../MCAL/headers/Delay.h
+.\mian.o: HAL/headers/../../MCAL/headers/tm4c123gh6pm.h
+.\mian.o: HAL/headers/../../MCAL/headers/../../services/headers/GPIO.h
+.\mian.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\mian.o: HAL/headers/GPS.h
+.\mian.o: D:\Keil\ARM\ARMCC\bin\..\include\math.h
+.\mian.o: D:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\mian.o: D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\mian.o: HAL/headers/../../MCAL/headers/UART.h
+.\mian.o: D:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\mian.o: HAL/headers/Buzzer.h
+.\mian.o: services/headers/Functions.h
