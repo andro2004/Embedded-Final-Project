@@ -26,6 +26,7 @@ int main(void)
 	float mindist;
 	int i;
 	int minI=0;
+	buzzer_inti();
 	UART_Init();
 	LCD_init();
 	delay_ms(50);
