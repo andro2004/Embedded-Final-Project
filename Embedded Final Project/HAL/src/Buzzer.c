@@ -4,7 +4,7 @@
 		int silent_ms=200;
 void buzzer_inti(void)
 {
-		//init port A pin 6 (en) and pin 7 (rs)
+		
 		SYSCTL_RCGCGPIO_R|=0x00000001;
 		while((SYSCTL_PRGPIO_R & 0x00000001)==0){};
 		SET_BIT(GPIO_PORTA_DIR_R ,2);
