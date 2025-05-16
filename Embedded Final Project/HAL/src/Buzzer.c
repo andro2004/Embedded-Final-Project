@@ -30,36 +30,36 @@ void morsee(int location)
 	switch (location)
 	{
 		case 0:
+			//C (hall C)
+			dash();
 			dot();
 			dash();
+			dot();
 			break;
 		case 1:
-			dash();
+			//W (lupan workshop)
 		dot();
 		dash();
-		dot();
+		dash();
 		break;
 		case 2:
+			//I (ICHEP)
 		dot();
-		dash();
-		dash();
 		dot();
 		break;
 		case 3:
+			//V (Civil)
 			dot();
 		dot();
+		dot();
+		dash();
 		break;
 		case 4:
+		//L (Library)
 			dot();
-		dot();
-		dot();
-		dash();
-		break;
-		case 5:
+			dash();
 			dot();
-		dash();
-		dot();
-		dot();
+			dot();
 		break;
 		default:;
 	}
